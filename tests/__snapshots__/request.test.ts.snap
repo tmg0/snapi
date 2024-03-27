@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`request > ungh h3 1`] = `
+{
+  "repo": {
+    "createdAt": "2020-11-17T14:15:44Z",
+    "defaultBranch": "main",
+    "description": "⚡️ Minimal H(TTP) framework built for high performance and portability ",
+    "forks": 163,
+    "id": 313641207,
+    "name": "h3",
+    "pushedAt": "2024-03-23T15:55:42Z",
+    "repo": "unjs/h3",
+    "stars": 3044,
+    "updatedAt": "2024-03-26T20:10:56Z",
+    "watchers": 15,
+  },
+}
+`;
