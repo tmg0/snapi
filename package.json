@@ -1,14 +1,17 @@
 {
   "name": "@tmg0/snapi",
+  "type": "module",
   "version": "0.0.0",
   "description": "Snapshot based REST client for javascript developers.",
-  "main": "index.js",
-  "scripts": {
-    "test": "vitest"
-  },
+  "author": "tmg0",
+  "license": "MIT",
+  "homepage": "https://github.com/tmg0/snapi#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tmg0/snapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tmg0/snapi/issues"
   },
   "keywords": [
     "api",
@@ -17,10 +20,25 @@
     "post",
     "snapshot"
   ],
-  "author": "tmg0",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tmg0/snapi/issues"
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitest dev",
+    "build": "tsup",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest"
   },
-  "homepage": "https://github.com/tmg0/snapi#readme"
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.11.0",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "eslint-plugin-oxlint": "^0.2.7",
+    "oxlint": "^0.2.14",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3",
+    "unplugin-oxlint": "^0.5.2"
+  }
 }
