@@ -1,0 +1,26 @@
+{
+  "name": "@tmg0/snapi",
+  "version": "0.0.0",
+  "description": "Snapshot based REST client for javascript developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmg0/snapi.git"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "http",
+    "post",
+    "snapshot"
+  ],
+  "author": "tmg0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmg0/snapi/issues"
+  },
+  "homepage": "https://github.com/tmg0/snapi#readme"
+}
